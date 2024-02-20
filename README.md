@@ -30,3 +30,22 @@ It is a tool which converts Verilog code to C++ objects. Refer: https://www.veri
 
 ![image](https://github.com/ashwini0921/Generation-Of-Pn-Sequence-With-Internal-555-Timer-Based-Clock-Using-eSim-And-SKY130/assets/111654188/c5a2e950-871d-45dc-80ef-0dba7fd61c45)
 
+# Verilog Code
+
+module DFF_SKY(D, clk, rst, Q, Qn);
+  input D, clk, rst;
+  output reg Q, Qn;
+  always @(posedge clk, negedge rst) 
+  begin
+    if (rst) 
+    begin
+      Q  <= 1;
+      Qn <= 0;
+    end 
+    else 
+    begin
+      Q  <= D;
+      Qn <= ~D;
+    end
+  end
+endmodule
