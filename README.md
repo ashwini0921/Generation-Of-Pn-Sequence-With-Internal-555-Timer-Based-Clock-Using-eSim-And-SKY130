@@ -48,5 +48,5 @@ It is a tool which converts Verilog code to C++ objects. Refer: https://www.veri
       Q  <= D;      
       Qn <= ~D;    
     end  
-  end 
-  endmodule
+    end 
+    endmodule
