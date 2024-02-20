@@ -50,3 +50,53 @@ It is a tool which converts Verilog code to C++ objects. Refer: https://www.veri
     end  
     end 
     endmodule
+
+# Steps to run generate NgVeri Model
+
+
+1. Open eSim
+2. Run NgVeri-Makerchip
+3. Add top level verilog file in Makerchip Tab
+4. Click on NgVeri tab
+5. Add dependency files
+6. Click on Run Verilog to NgSpice Converter
+7. Debug if any errors
+8. Model created successfully
+
+# Steps to run this project
+
+
+1. Open a new terminal
+2. Change directory:
+
+       cd eSim-Workspace
+3. Clone this project using the following command:
+
+       git clone https://github.com/ashwini0921/Generation-Of-Pn-Sequence-With-Internal-555-Timer-Based-Clock-Using-eSim-And-SKY130.git
+4. Run ngspice:
+
+        ngspice PN_Generation_ASHWINI.cir.out
+5. To run the project in eSim:
+
+1)  Run eSim
+2)  Load the project named PN_Generation_ASHWINI
+3)  Open eeSchema
+
+# Acknowlegdements
+
+1. FOSSEE, IIT Bombay
+2. Steve Hoover, Founder, Redwood EDA
+3. Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalpghosh@gmail.com
+4. Sumanto Kar, eSim Team, FOSSEE
+5. Google
+6. https://spoken-tutorial.org/
+7. https://vlsisystemdesign.com/
+8. https://www.c2s.gov.in/
+
+# References
+
+1. Ahmad, Nabihah & Hasan, Rezaul. (2011). A new design of XOR-XNOR gates for low power application. 10.1109/ICEDSA.2011.5959039.
+2. K. Ravali, N. R. Vijay, S. Jaggavarapu and R. Sakthivel, "Low power XOR gate design and its applications," 2017 Fourth International Conference on Signal Processing, Communication and Networking (ICSCN), 2017, pp. 1-4, doi: 10.1109/ICSCN.2017.8085699.
+3. https://github.com/Eyantra698Sumanto/Two-in-One-Low-power-XOR-XNOR-Gate.git
+4. https://github.com/Eyantra698Sumanto/XOR-XNOR-Gate.git
+5. Linear Integrated Circuit by D ROY CHOUDHURY, SHAIL BALA JAIN
