@@ -8,3 +8,22 @@ This project focuses on the generation of Pseudo-Noise (PN) sequences utilizing 
 # Circuit Details
 
 # Software Used
+## eSim
+
+It is an Open Source EDA developed by FOSSEE, IIT Bombay. It is used for electronic circuit simulation. It is made by the combination of two software namely NgSpice and KiCAD.
+For more details refer:
+https://esim.fossee.in/home
+
+## NgSpice
+
+It is an Open Source Software for Spice Simulations. For more details refer:
+http://ngspice.sourceforge.net/docs.html
+
+## Makerchip
+
+It is an Online Web Browser IDE for Verilog/System-verilog/TL-Verilog Simulation. Refer
+https://www.makerchip.com/
+
+## Verilator
+
+It is a tool which converts Verilog code to C++ objects. Refer: https://www.veripool.org/verilator/eSim
