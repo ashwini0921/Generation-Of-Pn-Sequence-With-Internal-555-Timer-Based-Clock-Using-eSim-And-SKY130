@@ -5,8 +5,6 @@ This project focuses on the generation of Pseudo-Noise (PN) sequences utilizing 
 # Reference Circuit Diagram
 ![image](https://github.com/ashwini0921/Generation-Of-Pn-Sequence-With-Internal-555-Timer-Based-Clock-Using-eSim-And-SKY130/assets/111654188/9fcce6e5-4026-458d-ad66-009a9fd8d6ee)
 
-# Circuit Details
-
 # Software Used
 ## eSim
 
@@ -27,3 +25,5 @@ https://www.makerchip.com/
 ## Verilator
 
 It is a tool which converts Verilog code to C++ objects. Refer: https://www.veripool.org/verilator/eSim
+
+# Circuit Diagram in eSim
